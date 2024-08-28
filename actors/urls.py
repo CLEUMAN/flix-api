@@ -3,5 +3,5 @@ from . import views
 
 urlpatterns = [
     path('actors/', views.ActorCreateListView.as_view(), name='actor-create-list'),
-    path('actor/<int:pk>/', views.ActorRetrieveUpdateDestroyView.as_view(), name='actor-detail-view'),
+    path('actorS/<int:pk>/', views.ActorRetrieveUpdateDestroyView.as_view(), name='actor-detail-view'),
 ]
