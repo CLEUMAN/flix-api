@@ -1,3 +1,4 @@
 venv
 *.sqlite3
 __pychache__/
+anotacoes.txt
